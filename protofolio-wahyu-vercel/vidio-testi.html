@@ -114,3 +114,113 @@ main {
 .video-info {
     padding: 25px 8px 12px;
 }
+
+.video-info h2 {
+    font-size: 23px;
+    margin-bottom: 12px;
+}
+
+.video-info p {
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.tag {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 7px 15px;
+    border-radius: 30px;
+    background: rgba(255,0,0,.12);
+    color: #ff5555;
+    font-size: 11px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid rgba(255,0,0,.2);
+    color: #888;
+    font-size: 12px;
+}
+
+@media(max-width:600px) {
+    header {
+        padding: 16px 5%;
+    }
+
+    main {
+        padding: 50px 0;
+    }
+
+    .video-card {
+        padding: 9px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <i class="fas fa-code"></i> WAHYU PRATAMA
+    </div>
+
+    <a href="index.html" class="back">
+        <i class="fas fa-arrow-left"></i> Kembali
+    </a>
+</header>
+
+<main>
+
+    <section class="heading">
+        <small>CLIENT FEEDBACK</small>
+
+        <h1>VIDIO <span>TESTI</span></h1>
+
+        <p>
+            Kumpulan video testimoni dan pengalaman
+            pelanggan terhadap layanan saya.
+        </p>
+    </section>
+
+    <section class="video-card">
+
+        <div class="video-box">
+            <video controls playsinline preload="metadata">
+                <source src="videos/vidio-testi.mp4"
+                type="video/mp4">
+
+                Browser kamu tidak mendukung video.
+            </video>
+        </div>
+
+        <div class="video-info">
+
+            <h2>Testimoni Pelanggan</h2>
+
+            <p>
+                Terima kasih kepada semua pelanggan yang
+                telah mempercayakan layanan dan project
+                kepada saya. Berikut dokumentasi video
+                testimoni dan pengalaman pelanggan.
+            </p>
+
+            <span class="tag">
+                <i class="fas fa-video"></i>
+                VIDEO TESTIMONI
+            </span>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Wahyu Pratama. All Rights Reserved.
+</footer>
+
+</body>
+</html>
